@@ -1,5 +1,5 @@
 ## Base image to use
-FROM alpine
+FROM alpine:3.6
 
 LABEL io.k8s.description="Sickrage" \
       io.k8s.display-name="Sickrage" \

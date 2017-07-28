@@ -36,4 +36,4 @@ WORKDIR /opt/sickrage
 USER 1001
 
 ## Run Couchpotato
-ENTRYPOINT ["python", "Sickbeard.py", "--datadir=/config"]
+ENTRYPOINT ["python", "SickBeard.py", "--datadir=/config"]
